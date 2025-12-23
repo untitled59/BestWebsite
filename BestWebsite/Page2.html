@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LOADS of CATS</title>
+
+    <style>
+        /* Make the page fit a 1080x1920-style layout */
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            background-color: #f7f7f7;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            min-height: 100vh;
+        }
+
+        /* Main content box */
+        .container {
+            width: 1080px;
+            height: 1920px;
+            max-width: 100%;
+            max-height: 100%;
+
+            background: white;
+            text-align: center;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 64px;
+            margin-bottom: 40px;
+        }
+
+        /* Fade-in animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 2s ease-in forwards;
+        }
+
+        img {
+            width: 700px;
+            max-width: 100%;
+            border-radius: 20px;
+            margin-top: 30px;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 60px;
+            font-size: 24px;
+            text-decoration: none;
+            color: #0077cc;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="fade-in">We have LOADS of CATS!!!!! </h1>
+
+        <img src="SillyKittys.gif" class="fade-in" alt="Loads of silly cats">
+
+        <br>
+    </div>
+</body>
+</html>
